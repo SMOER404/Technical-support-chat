@@ -45,6 +45,10 @@ p.small-text {
     color: #5E5E7B;
     border: none;
 }
+.sidebar-btn:hover {
+    background: #6F6EFF;
+    color: #FFFFFF;
+}
 .sidebar-input {
     width: 100%;
     border: 1px solid #C2C2C9;
@@ -145,6 +149,12 @@ a {
                 color: #5E5E7B;
                 font-size: 14px;
                 line-height: 17px;
+            }
+        }
+        .navbar-content__item:hover {
+            background: #6F6EFF;
+            .navbar-content__item-content {
+                color: #FFFFFF;
             }
         }
         .navbar-content__item.active {
@@ -356,6 +366,10 @@ a {
                     line-height: 16px;
                     text-align: center;
                     color: #5E5E7B;
+                 }
+                 button:hover {
+                    background: #6F6EFF;
+                    color: white;
                  }
                  button:first-child {
                      margin-bottom: 8px;

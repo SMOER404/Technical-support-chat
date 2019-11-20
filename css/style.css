@@ -67,6 +67,11 @@ p.small-text {
   border: none;
 }
 
+.sidebar-btn:hover {
+  background: #6F6EFF;
+  color: #FFFFFF;
+}
+
 .sidebar-input {
   width: 100%;
   border: 1px solid #C2C2C9;
@@ -210,6 +215,14 @@ a {
   color: #5E5E7B;
   font-size: 14px;
   line-height: 17px;
+}
+
+.navbar-wrapper .navbar-content__list-room .navbar-content__item:hover {
+  background: #6F6EFF;
+}
+
+.navbar-wrapper .navbar-content__list-room .navbar-content__item:hover .navbar-content__item-content {
+  color: #FFFFFF;
 }
 
 .navbar-wrapper .navbar-content__list-room .navbar-content__item.active {
@@ -531,6 +544,11 @@ a {
   line-height: 16px;
   text-align: center;
   color: #5E5E7B;
+}
+
+.messanger-admin .messanger-admin__wrapper .messanger-container__btn .messanger-btn__btn button:hover {
+  background: #6F6EFF;
+  color: white;
 }
 
 .messanger-admin .messanger-admin__wrapper .messanger-container__btn .messanger-btn__btn button:first-child {
