@@ -406,6 +406,7 @@ a {
 }
 
 .messanger-admin .messanger-admin__wrapper .messanger-container .messanger__row .message .message-content .message-content__info {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,6 +423,15 @@ a {
   color: #C2C2C9;
 }
 
+.messanger-admin .messanger-admin__wrapper .messanger-container .messanger__row .message .message-content .message-content__info .reply-link {
+  position: absolute;
+  right: 0px;
+  top: -2px;
+  background: url(../img/reply.svg);
+  width: 10px;
+  height: 10px;
+}
+
 .messanger-admin .messanger-admin__wrapper .messanger-container .messanger__row.answer {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -432,6 +442,10 @@ a {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+.messanger-admin .messanger-admin__wrapper .messanger-container .messanger__row.question .message-content__info {
+  padding-right: 38px;
 }
 
 .messanger-admin .messanger-admin__wrapper .messanger-container .messanger__row:nth-child(even) {

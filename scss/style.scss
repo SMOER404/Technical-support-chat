@@ -278,6 +278,7 @@ a {
                     .message-content {
                         padding: 12px 10px 12px 10px;
                         .message-content__info {
+                            position: relative;
                             display: flex;
                             justify-content: space-between;
                             margin-bottom: 8px;
@@ -287,8 +288,13 @@ a {
                                 line-height: 14px;
                                 color: #C2C2C9;
                             }
-                            .message-content__info-user {
-
+                            .reply-link {
+                                position: absolute;
+                                right: 0px;
+                                top: -2px;
+                                background: url(../img/reply.svg);
+                                width: 10px;
+                                height: 10px;
                             }
                         }
                     }
@@ -299,6 +305,9 @@ a {
             }
             .messanger__row.question {
                 justify-content: flex-start;
+                .message-content__info { 
+                    padding-right: 38px;
+                }
             }
             .messanger__row:nth-child(even) {
                 margin: 12px 0px;
