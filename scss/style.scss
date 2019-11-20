@@ -45,7 +45,7 @@ p.small-text {
     color: #5E5E7B;
     border: none;
 }
-.sidebar-btn:hover {
+.sidebar-btn:hover, .sidebar-btn:focus {
     background: #6F6EFF;
     color: #FFFFFF;
 }
@@ -151,7 +151,7 @@ a {
                 line-height: 17px;
             }
         }
-        .navbar-content__item:hover {
+        .navbar-content__item:hover, .navbar-content__item:focus {
             background: #6F6EFF;
             .navbar-content__item-content {
                 color: #FFFFFF;
@@ -367,7 +367,7 @@ a {
                     text-align: center;
                     color: #5E5E7B;
                  }
-                 button:hover {
+                 button:hover, button:focus {
                     background: #6F6EFF;
                     color: white;
                  }

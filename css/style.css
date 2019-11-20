@@ -67,7 +67,7 @@ p.small-text {
   border: none;
 }
 
-.sidebar-btn:hover {
+.sidebar-btn:hover, .sidebar-btn:focus {
   background: #6F6EFF;
   color: #FFFFFF;
 }
@@ -217,11 +217,11 @@ a {
   line-height: 17px;
 }
 
-.navbar-wrapper .navbar-content__list-room .navbar-content__item:hover {
+.navbar-wrapper .navbar-content__list-room .navbar-content__item:hover, .navbar-wrapper .navbar-content__list-room .navbar-content__item:focus {
   background: #6F6EFF;
 }
 
-.navbar-wrapper .navbar-content__list-room .navbar-content__item:hover .navbar-content__item-content {
+.navbar-wrapper .navbar-content__list-room .navbar-content__item:hover .navbar-content__item-content, .navbar-wrapper .navbar-content__list-room .navbar-content__item:focus .navbar-content__item-content {
   color: #FFFFFF;
 }
 
@@ -546,7 +546,7 @@ a {
   color: #5E5E7B;
 }
 
-.messanger-admin .messanger-admin__wrapper .messanger-container__btn .messanger-btn__btn button:hover {
+.messanger-admin .messanger-admin__wrapper .messanger-container__btn .messanger-btn__btn button:hover, .messanger-admin .messanger-admin__wrapper .messanger-container__btn .messanger-btn__btn button:focus {
   background: #6F6EFF;
   color: white;
 }
